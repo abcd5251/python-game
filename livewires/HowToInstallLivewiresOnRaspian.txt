@@ -1,0 +1,27 @@
+How to install THE LIVEWIRES PACKAGE 3.0 
+
+
+Dependencies
+------------
+To install the livewires package, you must first install Python 3. To 
+use the livewires package, you must have pygame installed. Pygame is already installed on 2017-03-02-raspian-jessie.
+
+
+Installation
+------------
+Open the setup.py file in Idle and then run it. You should see a series of  messages such as 
+
+running install
+running build
+......
+
+If you get a message that Python can't be found, you may need to update your PATH to include the folder in which you installed Python.
+
+
+Testing
+-------
+Start the Python interpreter and type:
+
+from livewires import games, color
+
+If this line produces no errors, you've successfully installed the livewires package. If you get an error that refers to pygame, you may have a version of Python that does not include pygame. Pygame is required to use livewires.
